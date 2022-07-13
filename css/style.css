@@ -1,6 +1,19 @@
 * {
-    margin: 0;
+    margin: 250;
     padding: 0;
+    /* Texto */
+    font-size: 22pt;
+    color: rgb(101, 216, 107);
+    text-align: center;
+    text-shadow: 2px 2px black;
+    
+    /* Background */
+    background-image:  url("/images/background.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 
@@ -9,9 +22,30 @@
     color :rgb(4, 145, 16);
 }
 
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(11, 224, 118);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(13, 241, 241);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
-#textIndex{
-    font-size: 20pt;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(5, 5, 102);
+#foto1{
+    border-radius: 50%;
 }
