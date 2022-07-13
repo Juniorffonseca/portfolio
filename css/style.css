@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#tituleIndex{
+    font-size: 30pt;
+    color :rgb(4, 145, 16);
+}
+
+
+#textIndex{
+    font-size: 20pt;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(5, 5, 102);
+}
