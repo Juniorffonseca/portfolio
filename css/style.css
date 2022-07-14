@@ -1,19 +1,21 @@
 * {
     margin: 250;
     padding: 0;
+
     /* Texto */
-    font-size: 22pt;
+    font-size: 20pt;
     color: rgb(101, 216, 107);
     text-align: center;
     text-shadow: 2px 2px black;
-    
+
+
     /* Background */
     background-image:  url("/images/background.jpg");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: cover;
 }
 
 
