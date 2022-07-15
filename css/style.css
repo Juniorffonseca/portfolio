@@ -84,6 +84,12 @@ a:active{
 }
 
 
+#tituloQuemSouEu{
+  font-size: 31.5pt;
+  color: rgb(101, 216, 107);
+  text-align: center;
+}
+
 
 #foto1{
     border-radius: 50%;
