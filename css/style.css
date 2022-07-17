@@ -83,6 +83,13 @@ a:active{
   margin-top: 12%;
 }
 
+#tituleJogos{
+  font-size: 29pt;
+  color: rgb(101, 216, 107);
+  text-align: center;
+  margin-top: 12%;
+}
+
 
 #tituloQuemSouEu{
   font-size: 31.5pt;
@@ -93,4 +100,9 @@ a:active{
 
 #foto1{
     border-radius: 50%;
+}
+
+div.box{
+  width: 350px;
+  display: inline-block;
 }
