@@ -4,11 +4,7 @@
 
     /* Texto */
 
-    text-shadow: 2.5px 2.5px 2.5px rgb(0, 0, 0);
-    color: rgb(100, 215, 105);
-    font-size: 22px;
-    padding: 6px;
-    text-align:center;
+    text-shadow: 2px 2px 2px rgb(97, 97, 97);
 
 
     
@@ -16,7 +12,7 @@
 .mainBackground{
   /* Background */
   display: block;
-  background-image: url(/images/background.jpg);
+  background-image: url(/background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -37,29 +33,13 @@
 }
 .navMenu ul li a{
   text-decoration: none;
-  color: rgb(100, 215, 105);
-  font-size: 29px;
+  color: rgb(101, 216, 107);
+  font-size: 25px;
   padding: 10px;
 }
 .navMenu ul li a:hover{
   color: green;
-  transition: 0.5s;
-}
-/* Links */
-a:hover{
-  color: green;
-  transition: 0.05s;
-}
-
-a:link {
-  color: green; 
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active{
-  color: yellow;
-  background
+  
 }
 
 #imageLogo{
@@ -83,26 +63,8 @@ a:active{
   margin-top: 12%;
 }
 
-#tituleJogos{
-  font-size: 29pt;
-  color: rgb(101, 216, 107);
-  text-align: center;
-  margin-top: 12%;
-}
-
-
-#tituloQuemSouEu{
-  font-size: 31.5pt;
-  color: rgb(101, 216, 107);
-  text-align: center;
-}
 
 
 #foto1{
     border-radius: 50%;
-}
-
-div.box{
-  width: 350px;
-  display: inline-block;
 }
