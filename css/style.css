@@ -47,6 +47,22 @@ transition: 0.5s;
 }
 /* Links */
 
+a:hover{
+  color: green;
+  transition: 0.05s;
+  }
+  
+a:link {
+  color: green; 
+  background-color: transparent;
+  text-decoration: none;
+  }
+  
+a:active{
+  color: yellow;
+  background
+  }
+
 #imageLogo{
 max-width: 60px;
 opacity: 0.6;
@@ -85,9 +101,17 @@ text-align: center;
 
 #foto1{
   border-radius: 50%;
+  opacity: 0.6;
 }
+#foto1:hover{
+  opacity: 1;
+  transform:scale(1.075, 1.075);
+  transition: 0.75s;
+}
+
 
 div.box{
 width: 350px;
 display: inline-block;
 }
+
