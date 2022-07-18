@@ -46,21 +46,6 @@ color: green;
 transition: 0.5s;
 }
 /* Links */
-a:hover{
-color: green;
-transition: 0.05s;
-}
-
-a:link {
-color: green; 
-background-color: transparent;
-text-decoration: none;
-}
-
-a:active{
-color: yellow;
-background
-}
 
 #imageLogo{
 max-width: 60px;
