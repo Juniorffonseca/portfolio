@@ -16,7 +16,7 @@
 .mainBackground{
 /* Background */
 display: block;
-background-image: url("https://images.unsplash.com/photo-1623520333087-62b8793e3d23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
+background-image: url("../images/background.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
