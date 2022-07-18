@@ -16,7 +16,7 @@
 .mainBackground{
 /* Background */
 display: block;
-background-image: url(/images/background.jpg);
+background-image: url(background.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
