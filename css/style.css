@@ -17,6 +17,7 @@
 /* Background */
 display: block;
 background-image: url("../images/background.jpg");
+background-color: black;
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
