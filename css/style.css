@@ -11,8 +11,9 @@
   text-align:center;
 
 
-  
+
 }
+
 .mainBackground{
 /* Background */
 display: block;
@@ -114,7 +115,7 @@ div.box{
 width: 350px;
 display: inline-block;
 }
-
+/* Input Form */
 input[type=text]{
   transition: width 0.4s ease-in-out;
   width: 15%;
@@ -151,12 +152,7 @@ input[id=whatsapp]:focus
   width: 18%;
 }
 
-/*input[type=submit]
-{
-
-}
-*/
-
+/* Responsividade no Form */ 
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
     width:100%;
