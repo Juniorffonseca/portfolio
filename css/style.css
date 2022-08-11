@@ -133,6 +133,7 @@ input[type=submit]
   box-sizing: border-box;
   border: 2px solid rgb(100, 215, 105);
   background-color: black;
+  cursor: pointer;
 }
 
 input[type=text]:focus
@@ -148,4 +149,30 @@ input[id=name]:focus
 input[id=whatsapp]:focus
 {
   width: 18%;
+}
+
+/*input[type=submit]
+{
+
+}
+*/
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width:100%;
+    margin-top: 0;
+  }
+  .col-25, .col-75, input[type=text] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .col-25, .col-75, input[id=name]:focus {
+    width: 100%;
+  }
+  .col-25, .col-75, input[id=whatsapp]:focus {
+    width: 100%;
+  }
+  .col-25, .col-75, input[id=email]:focus {
+    width: 100%;
+  }
 }
