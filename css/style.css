@@ -115,3 +115,37 @@ width: 350px;
 display: inline-block;
 }
 
+input[type=text]{
+  transition: width 0.4s ease-in-out;
+  width: 15%;
+  padding: 1% 1%;
+  margin: 1% 1%;
+  box-sizing: border-box;
+  border: 2px solid rgb(100, 215, 105);
+  background-color: black;
+}
+
+input[type=submit]
+{
+  width: 10%;
+  padding: 1% 1%;
+  margin: 1% 1%;
+  box-sizing: border-box;
+  border: 2px solid rgb(100, 215, 105);
+  background-color: black;
+}
+
+input[type=text]:focus
+{
+  width: 35%;
+}
+
+input[id=name]:focus
+{
+  width: 27%;
+}
+
+input[id=whatsapp]:focus
+{
+  width: 18%;
+}
