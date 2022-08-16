@@ -6,8 +6,8 @@
 
   text-shadow: 2.5px 2.5px 2.5px rgb(0, 0, 0);
   color: rgb(100, 215, 105);
-  font-size: 22px;
-  padding: 6px;
+  font-size: 25px;
+  padding: 7px;
   text-align:center;
 
 
@@ -17,8 +17,8 @@
 .mainBackground{
 /* Background */
 display: block;
-background-image: url("../images/background.jpg");
-background-color: black;
+background-image: url("../images/background4.jpg");
+background-color: rgb(0, 0, 0);
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -65,25 +65,33 @@ a:active{
   }
 
 #imageLogo{
-max-width: 60px;
+max-width: 90px;
 opacity: 0.6;
 margin-top: 6px;
 margin-left: 10px;
 }
 #imageLogo:hover{
 opacity: 1;
-transform:scale(1.375, 1.375);
+transform:scale(1.4, 1.4);
 transition: 0.75s;
 }
 
 
 /* h1 INDEX */
 #tituleIndex{
-font-size: 40pt;
+font-size: 50pt;
 color: rgb(101, 216, 107);
 text-align: center;
-margin-top: 12%;
+margin-top: 15%;
 }
+
+@media screen and (max-width: 600px) {
+  #tituleIndex{
+    font-size: 20pt;
+    margin-top: 50%;
+  }
+}
+
 
 #tituleJogos{
 font-size: 29pt;
