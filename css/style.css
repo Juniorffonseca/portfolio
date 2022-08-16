@@ -35,7 +35,7 @@ align-items: center;
 .navMenu ul li{
 list-style: none;
 display: inline;
-
+background-color: rgba(43, 42, 42, 0.527);
 }
 .navMenu ul li a{
 text-decoration: none;
