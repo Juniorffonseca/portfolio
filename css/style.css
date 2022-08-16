@@ -131,7 +131,7 @@ input[type=text]{
   margin: 1% 1%;
   box-sizing: border-box;
   border: 2px solid rgb(100, 215, 105);
-  background-color: black;
+  background-color: rgba(43, 42, 42, 0.527);
 }
 
 input[type=submit]
@@ -141,7 +141,7 @@ input[type=submit]
   margin: 1% 1%;
   box-sizing: border-box;
   border: 2px solid rgb(100, 215, 105);
-  background-color: black;
+  background-color: rgba(43, 42, 42, 0.527);
   cursor: pointer;
 }
 
