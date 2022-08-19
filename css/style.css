@@ -49,13 +49,23 @@ padding: 10px;
 
 @media screen and (max-width: 600px)
 {
-  .navMenu ul li a{
-    font-size: 19px;
+  .navMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .navMenu ul li{
+    list-style: none;
+    display: block;
+    background-color: rgba(43, 42, 42, 0.527);
+    }
+    .navMenu ul li a{
+    text-decoration: none;
+    color: rgb(100, 215, 105);
+    font-size: 18px;
     padding: 0px;
-    overflow: hidden;
+    }
   }
-
-}
 
 .navMenu ul li a:hover{
 color: green;
