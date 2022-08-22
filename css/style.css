@@ -18,8 +18,8 @@
 .mainBackground{
 /* Background */
 display: block;
-background-image: url("../images/background9.jpg");
-background-color: rgb(2, 6, 24);
+/*background-image: url("../images/background9.jpg");*/
+background-image: linear-gradient(to right, #070330, #060a35, #051039, #05143e, #051843, #051842, #051940, #05193f, #051637, #061330, #060e28, #040921);
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -37,8 +37,7 @@ align-items: center;
 }
 .navMenu ul li{
 list-style: none;
-display: inline;
-background-color: rgba(43, 42, 42, 0.116);
+display: inline;;
 }
 .navMenu ul li a{
 text-decoration: none;
@@ -56,8 +55,7 @@ padding: 10px;
     }
     .navMenu ul li{
     list-style: none;
-    display: block;
-    background-color: rgba(43, 42, 42, 0.527);
+    display: block;;
     }
     .navMenu ul li a{
     text-decoration: none;
@@ -175,7 +173,7 @@ input[type=text]{
   margin: 1% 1%;
   box-sizing: border-box;
   border: 2px solid rgb(100, 215, 105);
-  background-color: rgb(2, 6, 24);
+  background-color: rgba(13, 28, 44, 0);
 }
 
 input[type=submit]
@@ -185,7 +183,7 @@ input[type=submit]
   margin: 1% 1%;
   box-sizing: border-box;
   border: 2px solid rgb(100, 215, 105);
-  background-color: rgb(2, 6, 24);
+  background-color: rgba(13, 28, 44, 0);
   cursor: pointer;
 }
 
