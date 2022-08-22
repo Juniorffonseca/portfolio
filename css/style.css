@@ -18,8 +18,8 @@
 .mainBackground{
 /* Background */
 display: block;
-background-image: url("../images/background4.jpg");
-background-color: rgb(0, 0, 0);
+background-image: url("../images/background9.jpg");
+background-color: rgb(2, 6, 24);
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -38,7 +38,7 @@ align-items: center;
 .navMenu ul li{
 list-style: none;
 display: inline;
-background-color: rgba(43, 42, 42, 0.527);
+background-color: rgba(43, 42, 42, 0.116);
 }
 .navMenu ul li a{
 text-decoration: none;
@@ -175,7 +175,7 @@ input[type=text]{
   margin: 1% 1%;
   box-sizing: border-box;
   border: 2px solid rgb(100, 215, 105);
-  background-color: rgba(43, 42, 42, 0.527);
+  background-color: rgb(2, 6, 24);
 }
 
 input[type=submit]
@@ -185,7 +185,7 @@ input[type=submit]
   margin: 1% 1%;
   box-sizing: border-box;
   border: 2px solid rgb(100, 215, 105);
-  background-color: rgba(43, 42, 42, 0.527);
+  background-color: rgb(2, 6, 24);
   cursor: pointer;
 }
 
