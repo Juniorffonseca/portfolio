@@ -19,7 +19,7 @@
 /* Background */
 display: block;
 /*background-image: url("../images/background9.jpg");*/
-background-image: linear-gradient(to right, #070330, #060a35, #051039, #05143e, #051843, #051842, #051940, #05193f, #051637, #061330, #060e28, #040921);
+background-image: linear-gradient(to right bottom, #020111, #0a0a1a, #101122, #12172b, #151c34, #141c34, #141d35, #131d35, #10182c, #0e1323, #090d1b, #010412);
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
