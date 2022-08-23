@@ -247,7 +247,10 @@ input[id=whatsapp]:focus
   transition: 0.75s;
   }
 
-  #rodape-prin{
-    border-bottom: 0px;
-    padding: 100px;
-  }
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  font-family: "arial", sans-serif;
+  font-size: 15px;
+}
