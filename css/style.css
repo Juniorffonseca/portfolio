@@ -14,7 +14,6 @@
 }
 
 
-
 .mainBackground{
 /* Background */
 display: block;
@@ -250,8 +249,16 @@ input[id=whatsapp]:focus
 footer{
   width: 100%;
   position: absolute;
-  bottom: 20px;
+  bottom: 5px;
   font-family: "arial", sans-serif;
   font-size: 15px;
   color: rgb(250,255,250)
+}
+
+#descricao{
+  text-shadow: 2.5px 2.5px 2.5px rgb(0, 0, 0);
+  color: rgb(100, 215, 105);
+  font-size: calc(0.90em + 0.25vw);
+  padding: 7px;
+  text-align:center;
 }
