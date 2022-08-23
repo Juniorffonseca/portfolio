@@ -250,9 +250,6 @@ footer{
   width: 100%;
   position: absolute;
   bottom: 5px;
-  font-family: "arial", sans-serif;
-  font-size: 15px;
-  color: rgb(250,255,250)
 }
 
 @media screen and (max-width: 600px) {
@@ -266,4 +263,6 @@ footer{
   font-size: calc(0.90em + 0.25vw);
   padding: 7px;
   text-align:center;
+}
+
 }
