@@ -255,6 +255,11 @@ footer{
   color: rgb(250,255,250)
 }
 
+@media screen and (max-width: 600px) {
+  footer{
+    position: relative;
+}
+
 #descricao{
   text-shadow: 2.5px 2.5px 2.5px rgb(0, 0, 0);
   color: rgb(100, 215, 105);
