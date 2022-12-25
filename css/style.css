@@ -149,8 +149,15 @@ text-align: center;
 #foto2{
   border-radius: 10%;
   opacity: 0.7;
-  max-width: 70%;
+  max-width: 90%;
 }
+
+#foto2:hover{
+  opacity: 1;
+  transform:scale(1.075, 1.075);
+  transition: 0.75s;
+}
+
 
 @media screen and (max-width: 600px){
   #foto1{
