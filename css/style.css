@@ -5,7 +5,7 @@
   /* Texto */
 
   text-shadow: 2.5px 2.5px 2.5px rgb(0, 0, 0);
-  color: rgb(100, 215, 105);
+  color: rgb(255, 255, 255);
   font-size: calc(0.90em + 0.25vw);
   padding: 7px;
   text-align:center;
@@ -40,7 +40,7 @@ display: inline;;
 }
 .navMenu ul li a{
 text-decoration: none;
-color: rgb(100, 215, 105);
+color: rgb(255, 255, 255);
 font-size: 29px;
 padding: 10px;
 }
@@ -58,7 +58,7 @@ padding: 10px;
     }
     .navMenu ul li a{
     text-decoration: none;
-    color: rgb(100, 215, 105);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     padding: 0px;
     }
@@ -101,7 +101,7 @@ transition: 0.75s;
 /* h1 INDEX */
 #tituleIndex{
 font-size: 50pt;
-color: rgb(101, 216, 107);
+color: rgb(105, 179, 105);
 text-align: center;
 margin-top: 15%;
 }
